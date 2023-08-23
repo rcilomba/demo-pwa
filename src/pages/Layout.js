@@ -1,11 +1,9 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import { Outlet } from 'react-router-dom';
 
-function App() {
-  return (
-      <>
+
+
+const Layout = () => {
+    return (
+        <>
             <header>
                 <p>This is header</p>
             </header>
@@ -16,7 +14,7 @@ function App() {
                 </footer>
             </main>
         </>
-  );
+      );
 }
-
-export default App;
+ 
+export default Layout;
