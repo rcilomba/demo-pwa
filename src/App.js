@@ -15,7 +15,7 @@ function App() {
                 <footer>
                     <p>Do it properly</p>
                 </footer>
-                <PWAPrompt />
+                <PWAPrompt copyTitle="Føj til hjemmeskærmen"/>
             </main>
         </>
   );
