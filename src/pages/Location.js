@@ -8,7 +8,7 @@ const Location = () => {
 
     useEffect(() => {
         if('geolocation' in navigator){
-            navigator.geolocation.getCurrentPosition((position) => {
+            navigator.geolocation.watchPosition((position) => { // from getCurrentPosition to watchPosition
                 console.log(position)
                 setmyPos(position)
             })
